@@ -4,7 +4,6 @@ The goal of this project is to create a program that can predict a user's predic
 Anil Chintapalli, Manya Nallagangu
 ## Libraries and Equipment
 * Tensorflow - This machine learning library allows us to train and run models. 
-* Scikit-learn - This machine learning library aloows us to train and run models. We will use this library to perform the regression algorithms necessary for heart rate prediction.
 * pandas - Library for managing dataframes
 * numpy - Library for array manipulation
 * Flask - This framework will be used to build the API.
