@@ -1,0 +1,16 @@
+# Core Python Libraries
+numpy==1.26.4
+pandas==2.2.2
+
+# Machine Learning and Deep Learning
+tensorflow==2.18.0
+scikit-learn==1.5.2
+
+# Synthetic Data Generation
+sdv==1.17.1
+
+# Garmin Connect API
+garminconnect==0.2.23
+
+# Web Application Framework
+streamlit==1.40.2
