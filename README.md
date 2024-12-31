@@ -36,7 +36,6 @@ Anil Chintapalli, Manya Nallagangu
 | :----: | :-----: | :---------: |
 | Completed | 12/6/2024 | Neural Network with seperately optimized hyperparameters for best prediction. Solid predictions (within 10 MAE)
 
-
 **5. API/UI Development**
 | Status | Date | Description |
 | :----: | :-----: | :---------: |
@@ -44,3 +43,10 @@ Anil Chintapalli, Manya Nallagangu
 | Completed | 11/28/2024 | Create UI and API
 | Completed | 12/9/2024 | Integrated machine learning model with the API (didn't work extremely well? Problems with Flask disconnecting)
 | Completed | 12/12/2024 | Workaround that removes API dependancy to have the user's credentials go directly to Garmin Connect from the UI
+
+**6. API/App Development**
+| Status | Date | Description |
+| :----: | :-----: | :---------: |
+| In progress | 12/20/2024 | Begin development of App in Dart
+| In progress | 12/20/2024 | Reinstate backend API for remote usage
+| In progress | 12/22/2024 | Explore methods for reliable, secure remotely-hosted API
