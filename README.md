@@ -1,7 +1,7 @@
 # PulseRun
 The goal of this project is to create a program that can predict a user's predicted biometric features and average/max heart rate for a future run based on these route features: Distance, Pace, Elevation gained, Elevation lost. This prediction is made using a machine learning model trained on the user's historical running data through Garmin Connect.
-## Authors
-Anil Chintapalli, Manya Nallagangu
+## Author
+Anil Chintapalli
 ## Libraries and Equipment
 * Tensorflow - This machine learning library allows us to train and run models. 
 * pandas - Library for managing dataframes
