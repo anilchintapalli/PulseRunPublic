@@ -1,5 +1,5 @@
 # PulseRun
-The goal of this project is to create a program that can predict a user's predicted biometric features and average/max heart rate for a future run based on these route features: Distance, Pace, Elevation gained, Elevation lost. This prediction is made using a machine learning model trained on the user's historical running data through Garmin Connect.
+The goal of this project is to create a program that can predict a user's predicted biometric features and average/max heart rate for a future run based on these route features: Distance, Pace, Elevation gained, Elevation lost. This prediction is made using a machine learning model trained on the user's historical running data through either Garmin Connect or Strava (although Strava provides less features).
 ## Author
 Anil Chintapalli
 ## Libraries and Equipment
@@ -12,6 +12,7 @@ Anil Chintapalli
 * Garmin Connect- This API wrapper allows access to a user's Garmin Connect activity data given they provide their associated email, password, start date, and end date. 
 * SDV - Library to generate synthetic and evaluate the quality of that data
 * Scikit Learn - Library for standardization of features before training
+* Pytorch - Library for nerual network implementation (preferred over Keras because of warning supression and compatible versions
 # Feature List
 - [ ] Deployment on desktop UI
 - [ ] Model makes synthetic data from historical running data
@@ -46,6 +47,11 @@ Anil Chintapalli
 **6. API/App Development**
 | Status | Date | Description |
 | :----: | :-----: | :---------: |
-| In progress | 12/20/2024 | Begin development of App in Dart
-| In progress | 12/20/2024 | Reinstate backend API for remote usage
+| Completed | 1/20/2024 | Finish development of App in Dart (Firebase for account system)
+| In progress | 12/20/2024 | Reinstate backend API/virtual machine for remote usage (especially with full hyperparameter tuning model)
 | In progress | 12/22/2024 | Explore methods for reliable, secure remotely-hosted API
+
+**7. Strava Integration**
+| Status | Date | Description |
+| :----: | :-----: | :---------: |
+| Completed | 2/10/2024 | Integrate PulseRun with Strava (through API support)
